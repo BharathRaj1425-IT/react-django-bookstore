@@ -1,0 +1,83 @@
+/* Heading */
+h2 {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Search Box */
+.input-group {
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.input-group-text {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table Styling */
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #007bff !important;
+    color: white !important;
+    text-align: center;
+    padding: 12px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Edit Icon */
+.edit-icon {
+    color: #007bff;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.edit-icon:hover {
+    transform: scale(1.2);
+    color: #0056b3;
+}
+
+/* Modal Styling */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background: #007bff;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-body {
+    background: #f8f9fa;
+}
+
+/* Form Controls */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Update Button */
+button[type="submit"] {
+    background: #007bff;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
