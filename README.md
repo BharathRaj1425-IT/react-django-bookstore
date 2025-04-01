@@ -4,7 +4,7 @@ This project is a **full-stack web application** using **Django Rest Framework (
 
 ## **📌 Features**
 - ✅ **REST API** with Django Rest Framework (DRF)
-- ✅ **PostgreSQL** database connection
+- ✅ **PostgreSQL** for Database
 - ✅ **UI** with React JS 
 - ✅ **CORS support** to allow React frontend to interact with the API  
 - ✅ **Axios** for handling HTTP requests in React  
